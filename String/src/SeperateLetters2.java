@@ -4,7 +4,6 @@ public class SeperateLetters2 {
 	public static void main(String[] args) {
 		
 		String s = new String("pri12yes7@h#");
-		int len= s.length();
 		String letters="";
 		String numbers="";
 		String specials="";

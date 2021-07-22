@@ -7,18 +7,17 @@ public class SeparateLetters1 {
 		
 		for (int i = 0; i < str.length(); i++) 
 		{
-			if (Character.isAlphabetic(str.charAt(i)))
-				alpha.append(str.charAt(i));
-			else if(Character.isDigit(str.charAt(i)))
-				num.append(str.charAt(i));
+			char ch= str.charAt(i);
+			if (Character.isAlphabetic(ch))
+				alpha.append(ch);
+			else if(Character.isDigit(ch))
+				num.append(ch);
 			else
-				special.append(str.charAt(i));
+				special.append(ch);
 		}
 		System.out.println(alpha);
 		System.out.println(num);
 		System.out.println(special);
-		
-		
 		
 		
 	}
